@@ -151,7 +151,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</li>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-						<a class="nav-link text-white" href="Login.php"><img src="../UsuarioCliente/images/usuario.png" width="40px" height="30px"><br> &nbsp;Iniciar Sesión</a>
+						<a class="nav-link text-white" href="../UsuarioCliente/hola/Login.php"><img src="../UsuarioCliente/images/usuario.png" width="40px" height="30px"><br> &nbsp;Iniciar Sesión</a>
 						</li>
 						
 					</ul>
