@@ -87,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<div class="navbar-inner">
 		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" >
 				<!--aqui termina-->
 				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto text-center col-lg-10">
@@ -109,7 +109,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<a class="dropdown-item" href="single.html">Single Product 1</a>
 										<a class="dropdown-item" href="single2.html">Single Product 2</a>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="checkout.html">Checkout Page</a>
+										<a class="dropdown-item" href="../UsuarioCliente/Carrito.php">Carrito</a>
 										<a class="dropdown-item" href="payment.html">Payment Page</a>
 									</div>
 								</li>
