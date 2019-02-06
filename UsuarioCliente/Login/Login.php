@@ -964,19 +964,19 @@ input {
                     <div id="slideshow">
                         <div class="one">
                             <h2><span>FAST SHOP</span></h2>
-                            <p>Sign up to attend any of hundreds of events nationwide</p>
+                            <p>Es una tienda en linea donde puedes adquirir tus productos</p>
                         </div>
                         <div class="two">
-                            <h2><span>Ofertas</span></h2>
-                            <p>Thousands of instant online classes/tutorials included</p>
+                            <h2><span>Registrate</span></h2>
+                            <p>Y obten la mejor experiencia con Fast Shop</p>
                         </div>
                         <div class="three">
-                            <h2><span>On</span></h2>
-                            <p>Create your own groups and connect with others that share your interests</p>
+                            <h2><span>Compras</span></h2>
+                            <p>obten los beneficios al comprar en Fast SHOP</p>
                         </div>
                         <div class="four">
-                            <h2><span>SHARING</span></h2>
-                            <p>Share your works and knowledge with the community on the public showcase section</p>
+                            <h2><span>Beneficios</span></h2>
+                            <p>Entrega rapida e inmediata, el producto llega en buen estado</p>
                         </div>
                     </div>
                 </div>
@@ -990,17 +990,17 @@ input {
                     <div class="form-wrap">
                         <!-- TABS -->
                     	<div class="tabs">
-                            <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Login<span></a></h3>
-                    		<h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>Sign Up</span></a></h3>
+                            <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Inicio de Sesión<span></a></h3>
+                    		<h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>Registrate</span></a></h3>
                     	</div>
                         <!-- TABS CONTENT -->
                     	<div class="tabs-content">
                             <!-- TABS CONTENT LOGIN -->
                     		<div id="login-tab-content" class="active">
                     			<form class="login-form" action="" method="post">
-                    				<input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
-                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
-                    				<input type="submit" class="button" value="Login">
+                    				<input type="text" class="input" id="user_login" autocomplete="off" placeholder="Correo">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Contraseña">
+                    				<input type="submit" class="button" value="Iniciar">
                     			</form>
                     			<div class="">
                     				<a class="" href="../index.php">Regresar al Incio</a>
@@ -1010,12 +1010,11 @@ input {
                     		<div id="signup-tab-content">
                     			<form class="signup-form" action="" method="post">
                     				<input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
-                    				<input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
-                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
-                    				<input type="submit" class="button" value="Sign Up">
+                    				<input type="text" class="input" id="user_name" autocomplete="off" placeholder="Nombre de usuario">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Contraseña">
+                    				<input type="submit" class="button" value="Aceptar">
                     			</form>
                     			<div class="help-action">
-                    				<p>By signing up, you agree to our</p>
                     				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">Terms of service</a></p>
                     			</div>
                     		</div>

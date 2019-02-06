@@ -1,9 +1,9 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?php 
+$con=new mysqli('localhost','root','','empresa');
+$datos=$con->query("SELECT * FROM categoria");
+?>
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -103,14 +103,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										Categorias
 									</a>
 									<div class="dropdown-menu">
-										<a class="dropdown-item" href="product.html">Product 1</a>
-										<a class="dropdown-item" href="product2.html">Product 2</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="single.html">Single Product 1</a>
-										<a class="dropdown-item" href="single2.html">Single Product 2</a>
-										<div class="dropdown-divider"></div>
+									<?php  while($user=mysqli_fetch_array($datos)){ ?>
+										<a class="dropdown-item" id="<?php echo $user['ID']; ?>"  href="product.html"><?php echo $user['Nombre']; ?></a>
+										<?php } ?>
 										<a class="dropdown-item" href="../UsuarioCliente/Carrito.php">Carrito</a>
-										<a class="dropdown-item" href="payment.html">Payment Page</a>
 									</div>
 								</li>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
@@ -151,7 +147,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</li>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-						<a class="nav-link text-white" href="../UsuarioCliente/Login	/Login.php"><img src="../UsuarioCliente/images/usuario.png" width="40px" height="30px"><br> &nbsp;Iniciar Sesión</a>
+						<a class="nav-link text-white" href="../UsuarioCliente/Login/Login.php"><img src="../UsuarioCliente/images/usuario.png" width="40px" height="30px"><br> &nbsp;Iniciar Sesión</a>
 						</li>
 						
 					</ul>
